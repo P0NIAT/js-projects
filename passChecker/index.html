@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Password Validator</title>
+		<link
+			href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap&subset=latin-ext"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css.css" />
+		<script
+			src="https://kit.fontawesome.com/fb3a811469.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+
+	<body>
+		<label for="password">Check is your password is safe!</label>
+		<input type="text" id="password" placeholder="Enter the password..." />
+		<p class="passinfo">You did'n enter your password...</p>
+		<br /><br />
+		<h3 style="text-transform: uppercase; margin-bottom: 5px">
+			The password must consist of:
+		</h3>
+		<ul>
+			<li>minimum 10 characters</li>
+			<li>letters</li>
+			<li>digits</li>
+		</ul>
+		<br />
+		<p>
+			To make your password very strong, add
+			<span style="font-weight: bold; color: rgb(0, 255, 234)"
+				>special signs</span
+			>
+		</p>
+
+		<a href="../index.html"><i class="fas fa-home"></i> Home Page</a>
+
+		<script src="./js.js"></script>
+	</body>
+</html>

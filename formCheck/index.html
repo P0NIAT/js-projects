@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Project 3 FormValidator</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+		<script
+			src="https://kit.fontawesome.com/fb3a811469.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+
+	<body>
+		<div class="wrapper">
+            <form>
+                <h1>Register</h1>
+                <div class="form-box">
+                    <label for="username">User Name:</label>
+                    <input type="text" id="username" placeholder="Please enter your username">
+                    <p class="error-text">error</p>
+                </div>
+                <div class="form-box">
+                    <label for="password">Password:</label>
+                    <input type="text" id="password" placeholder="Your password">
+                    <p class="error-text">error</p>
+                </div>
+                <div class="form-box">
+                    <label for="password2">Repeat password:</label>
+                    <input type="text" id="password2" placeholder="Repeat password">
+                    <p class="error-text">error</p>
+                </div>
+                <div class="form-box">
+                    <label for="email">E-mail adress:</label>
+                    <input type="email" id="email" placeholder="Enter your e-mail address">
+                    <p class="error-text">error</p>
+                </div>
+
+                <div class="control-buttons">
+                    <button class="clear">Clear</button>
+                    <button class="send">Send</button>
+                </div>
+
+                <div class="popup">
+                    <p>The form has been sent!</p>
+                    <button class="close">Close</button>
+                </div>
+            </form>
+        </div>
+
+        <a href="../index.html"><i class="fas fa-home"></i> Home Page</a>
+			
+		<script src="./script.js"></script>
+	</body>
+</html>
